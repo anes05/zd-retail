@@ -11,6 +11,8 @@
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://us-assets.i.posthog.com ...">
+
 
   <title>Mico</title>
 
@@ -46,19 +48,19 @@
         <div class="container">
           <div class="contact_nav">
             <a href="tel:+21653823826">
-              <i class="fa fa-phone" aria-hidden="true"></i>
+              <i class="fa fa-phone" aria-hidden="true" style="color: #236E96;"></i>
               <span>
                 Téléphone : <phone>+216 53 823 826</phone>
               </span>
             </a>
             <a href="mailto:direction@zd-retail.com">
-              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <i class="fa fa-envelope" aria-hidden="true" style="color: #236E96;"></i>
               <span>
                 Direction : <email>direction@zd-retail.com</email>
               </span>
             </a>
             <a href="mailto:commercial@zd-retail.com">
-              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <i class="fa fa-envelope" aria-hidden="true" style="color: #236E96;"></i>
               <span>
                 Commercial : <email>commercial@zd-retail.com</email>
               </span>
@@ -152,7 +154,7 @@
   <!-- contact section -->
   <section class="contact_section layout_padding-bottom">
     <div class="container">
-      <div class="heading_container">
+      <div class="heading_container" style="padding-top: 5%;">
         <h2>
           Get In Touch
         </h2>
@@ -160,18 +162,20 @@
       <div class="row">
         <div class="col-md-7">
           <div class="form_container">
-            <form action="">
+            <form
+            action="https://formspree.io/f/xdkgqagb"
+            method="POST">
               <div>
-                <input type="text" placeholder="Full Name" />
+                <input type="text" name='name' placeholder="Full Name" />
               </div>
               <div>
-                <input type="email" placeholder="Email" />
+                <input type="email" name='email' placeholder="Email" />
               </div>
               <div>
-                <input type="text" placeholder="Phone Number" />
+                <input type="text" name='phone' placeholder="Phone Number" />
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Message" />
+                <input type="text" name='message' class="message-box" placeholder="Message" />
               </div>
               <div class="btn_box">
                 <button>
@@ -183,12 +187,12 @@
         </div>
         <div class="col-md-5">
           <div class="img-box">
-            <img src="images/contact-img.jpg" alt="">
+            <img src="images/contact.jpeg" alt="">
           </div>
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
   <!-- end contact section -->
 
   <!-- info section -->
@@ -366,6 +370,7 @@
   <script src="js/custom.js"></script>
 
 
+
 </body>
 
-</html> -->
+</html> 
