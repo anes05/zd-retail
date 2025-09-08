@@ -866,7 +866,7 @@ a:focus {
 
 .contact_section .form_container input {
   width: 100%;
-  border: 1px solid #00c6a9;
+  border: 1px solid #ff5f1f;
   height: 50px;
   margin-bottom: 25px;
   padding-left: 15px;
@@ -876,19 +876,19 @@ a:focus {
 }
 
 .contact_section .form_container input::-webkit-input-placeholder {
-  color: #00c6a9;
+  color: #236E96;
 }
 
 .contact_section .form_container input:-ms-input-placeholder {
-  color: #00c6a9;
+  color: #236E96;
 }
 
 .contact_section .form_container input::-ms-input-placeholder {
-  color: #00c6a9;
+  color: #236E96;
 }
 
 .contact_section .form_container input::placeholder {
-  color: #00c6a9;
+  color: #236E96;
 }
 
 .contact_section .form_container input.message-box {
@@ -900,14 +900,14 @@ a:focus {
   text-transform: uppercase;
   display: inline-block;
   padding: 15px 65px;
-  background-color: #00c6a9;
+  background-color: #ff5f1f;
   color: #ffffff;
   border-radius: 0;
   font-weight: bold;
 }
 
 .contact_section .form_container button:hover {
-  background-color: #00937d;
+  background-color: #236E96;
 }
 
 .contact_section .img-box img {
